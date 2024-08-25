@@ -1,0 +1,14 @@
+2024-07-23 18:47:58.120 [main] ERROR org.artfig.examples.ErrorMessage - sample@final-org.artfig.examples.ErrorMessage.main(ErrorMessage.java:23)
+2024-07-23 18:49:20.322 [main] ERROR org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.main(StackTrace.java:34)
+2024-07-23 18:49:20.324 [main] WARN  org.artfig.examples.StackTrace - [Ljava.lang.StackTraceElement;@7a67e3c6
+2024-07-23 18:50:36.653 [main] ERROR org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.main(StackTrace.java:43)
+2024-07-23 18:50:36.655 [main] WARN  org.artfig.examples.StackTrace - java.base/java.lang.Thread.getStackTrace(Thread.java:1619)
+2024-07-23 18:50:36.655 [main] WARN  org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.traceAll(StackTrace.java:34)
+2024-07-23 18:50:36.655 [main] WARN  org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.main(StackTrace.java:44)
+2024-07-23 18:52:47.197 [main] ERROR org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.main(StackTrace.java:47)
+2024-07-23 18:52:47.199 [main] WARN  org.artfig.examples.StackTrace - java.base/java.lang.Thread.getStackTrace(Thread.java:1619)
+2024-07-23 18:52:47.199 [main] WARN  org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.traceAll(StackTrace.java:38)
+2024-07-23 18:52:47.199 [main] WARN  org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.traceAllWrapper(StackTrace.java:34)
+2024-07-23 18:52:47.199 [main] WARN  org.artfig.examples.StackTrace - org.artfig.examples.StackTrace.main(StackTrace.java:48)
+2024-07-23 18:57:35.079 [main] ERROR org.artfig.examples.CsvReaderExample - Sample logging
+2024-07-23 18:57:35.081 [main] INFO  org.artfig.examples.CsvReaderExample - Sample info logging

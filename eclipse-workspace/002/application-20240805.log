@@ -1,0 +1,2 @@
+2024-08-05 20:35:27.124 [main] ERROR org.artfig.examples.CsvReaderExample - Sample logging
+2024-08-05 20:35:27.127 [main] INFO  org.artfig.examples.CsvReaderExample - Sample info logging
