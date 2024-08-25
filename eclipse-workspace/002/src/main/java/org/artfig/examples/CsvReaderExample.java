@@ -52,10 +52,10 @@ public class CsvReaderExample {
 		double totalDividends = 0.0;
 		String timeHack = "" + System.currentTimeMillis();
 
-		String statsPath = String.format("/Trades/Summary/%s/", timeHack);
+		String statsPath = String.format("/GitHub/Trades/Summary/%s/", timeHack);
 		new File(statsPath).mkdirs();
 
-		String tickerPath = String.format("/Trades/Tickers/%s/", timeHack);
+		String tickerPath = String.format("/GitHub/Trades/Tickers/%s/", timeHack);
 		new File(tickerPath).mkdirs();
 
 		try (CSVPrinter allPrinter = CsvU.csvPrinter(statsPath + "all.csv");
@@ -79,7 +79,7 @@ public class CsvReaderExample {
 
 				FidelityRecord.columnMap.clear();
 
-				String filePath = String.format("/Trades/History/%s.csv", fileName);
+				String filePath = String.format("/GitHub/Trades/History/%s.csv", fileName);
 
 				try (CSVParser csvParser = CsvU.csvParser(filePath)) {
 					// Iterate through records
